@@ -23,16 +23,31 @@
 
 
 
-// function 2 number, sum
-function sum (x, y, z) {
-        console.log (x+y+z);
-}
+// // function 2 number, sum
+// function sum (x, y, z) {
+//         console.log (x+y+z);
+// }
 
-// using return
+// // using return
+// function sum (x,y) {
+//     s=x+y;
+//     return s;
+// }
+// // return diye string, array, object sob return korano jay, kintu ekbar e, eksathe onk kichu na
+// // console diye dekhte hobe
+
+
+
+
 function sum (x,y) {
     s=x+y;
+    console.log("before return");
     return s;
+    console.log("after return"); //return jeta korbe erpor kichu print hobe na ejonno eta odrissho
 }
-// return diye string, array, object sob return korano jay, kintu ekbar e, eksathe onk kichu na
-// console diye dekhte hobe
+    // x,y hocche local variable, eigula sudhu {} etar moddhei jibito thakbe, er baire print dile undefined ekhabe, nche example
+let val= sum(2,3);
+// console.log(x); // eta example
+console.log(val);
+
 
