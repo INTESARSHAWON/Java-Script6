@@ -54,17 +54,37 @@
 
 
 
-// arrow functons
-function sum(a,b){
-    return a+b;
+// // arrow functons
+// function sum(a,b){
+//     return a+b;
+// }
+
+// const arrowSum= (a,b) =>{
+//     //console.log(a+b);
+//     return a+b;
+// }
+// // arrow function use kore evabe kora jay
+// // ekahne arrowSum ekta variable, etar moddhe just value ta rakha
+
+
+
+function multiplication(a,b){
+    return a*b;
 }
 
-const arrowSum= (a,b) =>{
-    //console.log(a+b);
-    return a+b;
+const arrowMul= (a,b) =>{
+    //console.log(a*b);
+    return a*b;
 }
+
 // arrow function use kore evabe kora jay
-// ekahne arrowSum ekta variable, etar moddhe just value ta rakha
+// ekahne arrowMul ekta variable, etar moddhe just value ta rakha
+
+
+
+
+
+
 
 
 
