@@ -99,31 +99,42 @@
 
 
 
-//ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for of loop)
+
+// //ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for of loop)
+// function vowel(str){
+//     let count=0;   
+//     for (const char of str){
+//         if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// const finalStr= (str) => {
+//      let count=0;   
+//      for (const char of str){
+//         if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+
+
+
+
+//NORMALLY VOWEL NUMBER PRINT KORA (using for loop)
 function vowel(str){
-    let count=0;   
-    for (const char of str){
-        if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
-            count++;
-        }
+    let count=0;
+    for (let i=0;i < str.length; i++){
+        if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
+        count++;
     }
-    return count;
+   }
+    console.log(count);
 }
-
-const finalStr= (str) => {
-     let count=0;   
-     for (const char of str){
-        if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
-            count++;
-        }
-    }
-    return count;
-}
-
-
-
-
-
 
 
 
