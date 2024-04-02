@@ -39,15 +39,32 @@
 
 
 
-function sum (x,y) {
-    s=x+y;
-    console.log("before return");
-    return s;
-    console.log("after return"); //return jeta korbe erpor kichu print hobe na ejonno eta odrissho
+// function sum (x,y) {
+//     s=x+y;
+//     console.log("before return");
+//     return s;
+//     console.log("after return"); //return jeta korbe erpor kichu print hobe na ejonno eta odrissho
+// }
+//     // x,y hocche local variable, eigula sudhu {} etar moddhei jibito thakbe, er baire print dile undefined ekhabe, nche example
+// let val= sum(2,3);
+// // console.log(x); // eta example
+// console.log(val);
+
+
+
+
+
+// arrow functons
+function sum(a,b){
+    return a+b;
 }
-    // x,y hocche local variable, eigula sudhu {} etar moddhei jibito thakbe, er baire print dile undefined ekhabe, nche example
-let val= sum(2,3);
-// console.log(x); // eta example
-console.log(val);
+
+const arrowSum= (a,b) =>{
+    //console.log(a+b);
+    return a+b;
+}
+// arrow function use kore evabe kora jay
+// ekahne arrowSum ekta variable, etar moddhe just value ta rakha
+
 
 
