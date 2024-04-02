@@ -83,19 +83,43 @@
 
 
 
-// NORMALLY VOWEL NUMBER PRINT KORA (using for of loop)
-function vowel(str){
-    let count=0;
-    for (let char of str){
-        if (
-            char==="a" || char==="e" || char==="i" || char==="o" || char==="u"
-        ){
-                    count++;
-                }
+// // NORMALLY VOWEL NUMBER PRINT KORA (using for of loop)
+// function vowel(str){
+//     let count=0;
+//     for (let char of str){
+//         if (
+//             char==="a" || char==="e" || char==="i" || char==="o" || char==="u"
+//         ){
+//                     count++;
+//                 }
 
+//     }
+//     return(count);
+// }
+
+
+
+//ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for of loop)
+function vowel(str){
+    let count=0;   
+    for (const char of str){
+        if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
+            count++;
+        }
     }
-    return(count);
+    return count;
 }
+
+const finalStr= (str) => {
+     let count=0;   
+     for (const char of str){
+        if(char==="a" || char==="e" || char==="i" || char==="o" || char==="u"){
+            count++;
+        }
+    }
+    return count;
+}
+
 
 
 
