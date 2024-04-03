@@ -176,11 +176,17 @@
 
 
 //call back er array function
-let array=[1,2,3,4,5];
+// let array=[1,2,3,4,5];
+
+// array.forEach ((val) =>{
+//     console.log(val);
+// });
+
+
+
+//arrayr moddhe string thakleo for each eki kaj korbe
+let array=["shawon","nawshin","shawon","nawshin"];
 
 array.forEach ((val) =>{
     console.log(val);
 });
-
-
-
