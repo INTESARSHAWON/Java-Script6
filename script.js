@@ -163,11 +163,24 @@
 
 
 
-// CALL BACK FUNCTION-> eta ekta higher order function
-// higher order function emn ekta function jeta onno ekta function ke use kore as paramiter, ba onno ekta function return kore 
+// // CALL BACK FUNCTION-> eta ekta higher order function
+// // higher order function emn ekta function jeta onno ekta function ke use kore as paramiter, ba onno ekta function return kore 
 
+// let array=[1,2,3,4,5];
+
+// array.forEach (function functionName(val){
+//     console.log(val);
+// });
+
+
+
+
+//call back er array function
 let array=[1,2,3,4,5];
 
-array.forEach (function functionName(val){
+array.forEach ((val) =>{
     console.log(val);
 });
+
+
+
