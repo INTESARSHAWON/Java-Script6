@@ -139,27 +139,35 @@
 
 
 
-// ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for loop)
-function vowel(str){
-    let count=0;
-    for (let i=0;i < str.length; i++){
-        if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
-        count++;
-    }
-   }
-    console.log(count);
-}
+// // ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for loop)
+// function vowel(str){
+//     let count=0;
+//     for (let i=0;i < str.length; i++){
+//         if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
+//         count++;
+//     }
+//    }
+//     console.log(count);
+// }
 
-const finalStr= (str) => {
-    let count=0;
-    for (let i=0;i < str.length; i++){
-        if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
-        count++;
-    }
-   }
-    console.log(count);
-}
-
-
+// const finalStr= (str) => {
+//     let count=0;
+//     for (let i=0;i < str.length; i++){
+//         if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
+//         count++;
+//     }
+//    }
+//     console.log(count);
+// }
 
 
+
+
+// CALL BACK FUNCTION-> eta ekta higher order function
+// higher order function emn ekta function jeta onno ekta function ke use kore as paramiter, ba onno ekta function return kore 
+
+let array=[1,2,3,4,5];
+
+array.forEach (function functionName(val){
+    console.log(val);
+});
