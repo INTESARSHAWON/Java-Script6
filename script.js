@@ -125,8 +125,32 @@
 
 
 
-//NORMALLY VOWEL NUMBER PRINT KORA (using for loop)
+// //NORMALLY VOWEL NUMBER PRINT KORA (using for loop)
+// function vowel(str){
+//     let count=0;
+//     for (let i=0;i < str.length; i++){
+//         if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
+//         count++;
+//     }
+//    }
+//     console.log(count);
+// }
+
+
+
+
+// ARRAY FUNCTION USE KORE VOWEL NUMBER PRINT KORA (using for loop)
 function vowel(str){
+    let count=0;
+    for (let i=0;i < str.length; i++){
+        if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
+        count++;
+    }
+   }
+    console.log(count);
+}
+
+const finalStr= (str) => {
     let count=0;
     for (let i=0;i < str.length; i++){
         if(str[i]==="a" || str[i]==="e" || str[i]==="i" || str[i]==="o" || str[i]==="u"){
