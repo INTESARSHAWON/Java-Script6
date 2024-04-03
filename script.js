@@ -184,9 +184,18 @@
 
 
 
-//arrayr moddhe string thakleo for each eki kaj korbe
-let array=["shawon","nawshin","shawon","nawshin"];
+// //arrayr moddhe string thakleo for each eki kaj korbe
+// let array=["shawon","nawshin","shawon","nawshin"];
 
+// array.forEach ((val) =>{
+//     console.log(val);
+// });
+
+
+//arrayr moddhe string thakleo for each eki kaj korbe, ekhan diye onno toUpperCase er moto function o call kora jabe,
+let array=["shawon","nawshin","shawon","nawshin"];
 array.forEach ((val) =>{
-    console.log(val);
+    console.log(val.toUpperCase());
 });
+
+
