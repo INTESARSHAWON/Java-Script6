@@ -211,10 +211,10 @@
 
 
 // kono number er square print korano
-let array=[1,2,3,4,5,6];
-array.forEach ((val) =>{
-    console.log(val*val);
-});
+// let array=[1,2,3,4,5,6];
+// array.forEach ((val) =>{
+//     console.log(val*val);
+// });
 //etar arekta process niche ache, duivabei kora jay
 
 // let array=[1,2,3,4,5,6];
@@ -223,3 +223,19 @@ array.forEach ((val) =>{
 // };
 // array.forEach (square);
 // forEach() use kora hoy jekono calculation korar jonne, map() function use kora hoy notun kono array create korte hole
+
+
+
+
+// map function map()
+let number=[21,22,23,24];
+
+let newArray= number.map((val)=>{
+    return val*2;
+});
+console.log(newArray);
+// // forEach() use kora hoy jekono calculation korar jonne, map() function use kora hoy notun kono array create korte hole
+
+
+
+
