@@ -240,12 +240,22 @@
 
 
 // filter function filter()
-let number=[21,22,23,24,25,25,26,27,28,29,30];
+// let number=[21,22,23,24,25,25,26,27,28,29,30];
 
-let newArray= number.filter((val)=>{
-    return val>=25;
-});
-console.log(newArray);
+// let newArray= number.filter((val)=>{
+//     return val>=25;
+// });
+// console.log(newArray);
 // // eta jekono kichu filter kore dey
+
+
+
+
+let number=[21,22,23,24,25,25,26,27,28,29,30];
+let oddArray= number.filter((val)=>{
+    return val%2==!0;
+});
+console.log(oddArray);
+
 
 
