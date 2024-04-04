@@ -199,3 +199,27 @@
 // });
 
 
+
+
+// callback diye 3 ta jinish pass kora jay- value, index no and array
+// let array=["shawon","nawshin","shawon","nawshin"];
+// array.forEach ((val, index, array) =>{
+//     console.log(val.toUpperCase(), index, array);
+// });
+
+
+
+
+// kono number er square print korano
+let array=[1,2,3,4,5,6];
+array.forEach ((val) =>{
+    console.log(val*val);
+});
+//etar arekta process niche ache, duivabei kora jay
+
+// let array=[1,2,3,4,5,6];
+// let square= (val) =>{
+//     console.log(val*val);
+// };
+// array.forEach (square);
+// forEach() use kora hoy jekono calculation korar jonne, map() function use kora hoy notun kono array create korte hole
