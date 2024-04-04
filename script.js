@@ -228,14 +228,24 @@
 
 
 // map function map()
-let number=[21,22,23,24];
+// let number=[21,22,23,24];
 
-let newArray= number.map((val)=>{
-    return val*2;
-});
-console.log(newArray);
+// let newArray= number.map((val)=>{
+//     return val*2;
+// });
+// console.log(newArray);
 // // forEach() use kora hoy jekono calculation korar jonne, map() function use kora hoy notun kono array create korte hole
 
 
+
+
+// filter function filter()
+let number=[21,22,23,24,25,25,26,27,28,29,30];
+
+let newArray= number.filter((val)=>{
+    return val>=25;
+});
+console.log(newArray);
+// // eta jekono kichu filter kore dey
 
 
