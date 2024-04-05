@@ -270,16 +270,21 @@
 
 
 
-let number=[5,5,5,5];
-let sumArray= number.reduce((preValue,crntVal)=>{
-    return preValue+crntVal;
+// let number=[5,5,5,5];
+// let sumArray= number.reduce((preValue,crntVal)=>{
+//     return preValue+crntVal;
+// });
+// let avgValue=sumArray/number.length
+// console.log(avgValue);
+
+
+
+
+
+let number=[5,5,5,5,6,7,8,9,12,10,10];
+let largestNumber= number.reduce((preValue,crntVal)=>{
+    return preValue>crntVal ? preValue: crntVal;
 });
-let avgValue=sumArray/number.length
-console.log(avgValue);
-
-
-
-
-
+console.log(largestNumber);
 
 
