@@ -281,10 +281,18 @@
 
 
 
-let number=[5,5,5,5,6,7,8,9,12,10,10];
-let largestNumber= number.reduce((preValue,crntVal)=>{
-    return preValue>crntVal ? preValue: crntVal;
+// let number=[5,5,5,5,6,7,8,9,12,10,10];
+// let largestNumber= number.reduce((preValue,crntVal)=>{
+//     return preValue>crntVal ? preValue: crntVal;
+// });
+// console.log(largestNumber);
+
+
+
+
+//exercise
+let number=[10,20,30,40,50,60,70,80,90,100];
+let graterThanNinety= number.filter((val)=>{
+    return val>=90;
 });
-console.log(largestNumber);
-
-
+console.log(graterThanNinety);
