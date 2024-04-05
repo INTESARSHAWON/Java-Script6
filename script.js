@@ -261,12 +261,21 @@
 
 
 // reduce() etar kaj hocche input onkgula hote pare, output ektai hobe...avg..sum..eshob khetre
-let number=[20,25,20,25];
+// let number=[20,25,20,25];
+// let sumArray= number.reduce((preValue,crntVal)=>{
+//     return preValue+crntVal;
+// });
+// console.log(sumArray);
+
+
+
+
+let number=[5,5,5,5];
 let sumArray= number.reduce((preValue,crntVal)=>{
     return preValue+crntVal;
 });
-console.log(sumArray);
-
+let avgValue=sumArray/number.length
+console.log(avgValue);
 
 
 
