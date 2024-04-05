@@ -251,11 +251,26 @@
 
 
 
-let number=[21,22,23,24,25,25,26,27,28,29,30];
-let oddArray= number.filter((val)=>{
-    return val%2==!0;
+// let number=[21,22,23,24,25,25,26,27,28,29,30];
+// let oddArray= number.filter((val)=>{
+//     return val%2==!0;
+// });
+// console.log(oddArray);
+
+
+
+
+// reduce() etar kaj hocche input onkgula hote pare, output ektai hobe...avg..sum..eshob khetre
+let number=[20,25,20,25];
+let sumArray= number.reduce((preValue,crntVal)=>{
+    return preValue+crntVal;
 });
-console.log(oddArray);
+console.log(sumArray);
+
+
+
+
+
 
 
 
