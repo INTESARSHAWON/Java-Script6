@@ -290,9 +290,30 @@
 
 
 
-//exercise
-let number=[10,20,30,40,50,60,70,80,90,100];
-let graterThanNinety= number.filter((val)=>{
-    return val>=90;
+// //exercise
+// let number=[10,20,30,40,50,60,70,80,90,100];
+// let graterThanNinety= number.filter((val)=>{
+//     return val>=90;
+// });
+// console.log(graterThanNinety);
+
+
+
+let n=prompt ("give a number");
+let array=[];
+
+for (let i=1; i<=n;i++){
+    array[i-1]=i;
+}
+console.log(array);
+
+let sumArray= array.reduce((preValue,crntValue)=>{
+    return preValue+crntValue;
 });
-console.log(graterThanNinety);
+console.log('sum of the array=',sumArray);
+
+let mulArray= array.reduce((preValue,crntValue)=>{
+    return preValue*crntValue;
+});
+console.log('mul of the array=',mulArray);
+
